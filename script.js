@@ -32,7 +32,7 @@ form.addEventListener("submit", (e) => {
       msg.innerHTML = "message successfully sent";
       setTimeout(function () {
         msg.innerHTML = "";
-      }, 1000);
+      }, 500);
       form.reset();
     })
     .catch((error) => console.error("Error!", error.message));
