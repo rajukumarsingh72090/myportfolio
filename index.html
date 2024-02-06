@@ -1,293 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-adsense-account" content="ca-pub-4400943442120192" />
-    <meta
-      name="google-site-verification"
-      content="Sd4wPBCXZGGPCAMU9_mYFkevTAzl3J08HXRQYCMyiBY"
-    />
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4400943442120192"
-      crossorigin="anonymous"
-    ></script>
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <script
-      src="https://kit.fontawesome.com/8cca31e24e.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="images/rajuTheme.jpeg" class="logo" />
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
-          </ul>
-          <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>MERN Stack Developer</p>
-          <h1>
-            Hi, I'm <span>Raju Kumar</span> <br />
-            from India (Bihar)
-          </h1>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-adsense-account" content="ca-pub-4400943442120192" />
+  <meta name="google-site-verification" content="Sd4wPBCXZGGPCAMU9_mYFkevTAzl3J08HXRQYCMyiBY" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4400943442120192"
+    crossorigin="anonymous"></script>
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/8cca31e24e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/rajuTheme.jpeg" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Sofware Engineer specialised in JavaScript</p>
+        <h1>
+          Hi, I'm <span>Raju Kumar</span> <br />
+          from India (Bihar)
+        </h1>
       </div>
     </div>
+  </div>
 
-    <!-- about Section -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/raju.jpg" alt="" />
+  <!-- about Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/raju.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Aspiring Front-End Developer with a deep passion for crafting
+            beautiful and intuitive web interfaces. Eager to embark on a
+            career in web development, I've been on a self-guided journey of
+            learning and exploration. My commitment to front-end technologies,
+            paired with my dedication to self-improvement, positions me as a
+            promising addition to any development team.
+          </p>
+          <div class="tab-titles">
+            <div class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </div>
+            <div class="tab-links" onclick="openTab('education')">
+              Education
+            </div>
           </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              Aspiring Front-End Developer with a deep passion for crafting
-              beautiful and intuitive web interfaces. Eager to embark on a
-              career in web development, I've been on a self-guided journey of
-              learning and exploration. My commitment to front-end technologies,
-              paired with my dedication to self-improvement, positions me as a
-              promising addition to any development team.
-            </p>
-            <div class="tab-titles">
-              <div class="tab-links active-link" onclick="openTab('skills')">
-                Skills
-              </div>
-              <div class="tab-links" onclick="openTab('education')">
-                Education
-              </div>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>core-skills</span><br />Html, Css, JavaScript, Nodejs
-                </li>
-                <li>
-                  <span>framewoks/libraries</span><br />react, redux, bootstrap,
-                  tailwindCss
-                </li>
-                <li><span>repositories</span><br />git and Github</li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>2022-2025</span><br />BAG(Bachelor of Arts General) -
-                  Management
-                </li>
-                <li>
-                  <span>2020-2022</span><br />intermediate in science from Ram
-                  Krisha college
-                </li>
-                <li>
-                  <span>2018-2020</span><br />matriculation from GSEB (Mukt
-                  PushPanjali School)
-                </li>
-              </ul>
-            </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>core-skills</span><br />Html, Css, JavaScript, Nodejs
+              </li>
+              <li>
+                <span>framewoks/libraries</span><br />react, redux, bootstrap,
+                tailwindCss
+              </li>
+              <li><span>repositories</span><br />git and Github</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2022-2025</span><br />BAG(Bachelor of Arts General) -
+                Management
+              </li>
+              <li>
+                <span>2020-2022</span><br />intermediate in science from Ram
+                Krisha college
+              </li>
+              <li>
+                <span>2018-2020</span><br />matriculation from GSEB (Mukt
+                PushPanjali School)
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <div id="services">
       <div class="container">
+=======
+  </div>
+>>>>>>> a94ff6a (changes)
 
-    <!-- skills -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>web Development</h2>
+  <!-- skills -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>web Development</h2>
+          <p>
+            I am a self-motivated and dedicated frontend web developer with a
+            strong proficiency in HTML, CSS, and JavaScript. Through
+            self-study, I have acquired the skills to design and build
+            visually appealing, responsive, and user-friendly websites. My
+            experience includes creating interactive user interfaces,
+            optimizing website performance, and ensuring cross-browser
+            compatibility. I am passionate about staying up-to-date with the
+            latest frontend technologies and trends to deliver exceptional web
+            experiences.
+          </p>
+          <a
+            href="https://en.wikipedia.org/wiki/Web_development#:~:text=Web%20development%20is%20the%20work,businesses%2C%20and%20social%20network%20services.">Learn
+            more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>mobile App Development (Android & iOS)</h2>
+          <p>
+            I am an accomplished React Native app developer with a solid
+            foundation in mobile application development. I possess a deep
+            understanding of JavaScript, React, and React Native, which allows
+            me to build cross-platform mobile apps that deliver a seamless
+            user experience. My experience includes developing and deploying
+            apps for both Android and iOS platforms, leveraging native device
+            features, and optimizing performance. I am committed to creating
+            intuitive and feature-rich mobile applications while staying
+            current with the evolving world of mobile app development."
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Android_software_development">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-desktop"></i>
+          <h2>Desktop App Development</h2>
+          <p>
+            I am a skilled desktop app developer specializing in Electron.js,
+            a framework that enables the creation of cross-platform
+            applications using web technologies. With a strong foundation in
+            HTML, CSS, and JavaScript, I have successfully developed desktop
+            applications for various operating systems, including Windows,
+            macOS, and Linux. My expertise includes creating user-friendly
+            interfaces, integrating native functionalities, and optimizing
+            performance for Electron-based apps. I am passionate about
+            leveraging Electron.js to build versatile, efficient, and visually
+            engaging desktop applications.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Application_development">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">my Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/todo.jpeg" alt="" />
+          <div class="layer">
+            <h3>Todo App</h3>
             <p>
+<<<<<<< HEAD
               I am self taught software engineer in JavaScript. I love to do something creative or something challenging. Due to financial issue to couldn't get into engineering but due to internate I was able to follow my passion.
+=======
+              A "to-do" list is a commonly used organizational tool that helps
+              individuals keep track of tasks and activities they need to
+              complete. It can range from simple pen-and-paper lists to
+              digital apps, and it's an effective way to stay productive and
+              organized by prioritizing and managing tasks efficiently.
+>>>>>>> a94ff6a (changes)
             </p>
+            <a href="https://github.com/rajukumarsingh72090/javaScript-projects/tree/main/crud_javaScript"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/myntra.png" alt="" />
+          <div class="layer">
+            <h3>Myntra Clone</h3>
+            <p>
+              I created myntra clone just to practice and testing my ability
+              that what I can do best in my web development. while creating
+              the clone of myntra it is very challenging task for me because
+              of complex user interfaces but after two I completed and gain
+              confidence.
+            </p>
+            <a href="https://github.com/rajukumarsingh72090/my_CSS/tree/main/myntra_clone"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/amazon.jpeg" alt="" />
+          <div class="layer">
+            <h3>Amazon Clone</h3>
+            <p>
+              After creating myntra clone I go to make amazon clone it was not
+              very challenging because i had good practice of my developed so
+              i enjoyed making my amazon clone and I am not stoping here,
+              right now i am working on my youtube clone which is very
+              challenging because i have never made any video streaming
+              platform yet.
+            </p>
+            <a href="https://github.com/rajukumarsingh72090/my_CSS/tree/main/simple_css"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">contact me</h1>
+          <p>
+            <a href="mailto: rajukumarsingh72090@gmail.com">rajukumarsingh72090@gmail.com</a>
+          </p>
+          <p><a href="tel: +917209078494">7209078494</a></p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100075000042168&mibextid=ZbWKwL"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://x.com/RajuKumar51148?t=LS7W2EKcAe5rbtxLP-ZKcw&s=09"><i
+                class="fab fa-twitter-square"></i></a>
+            <a href="https://instagram.com/rajukumarsingh769?utm_source=qr&igshid=ZDExYjZkNGI0OA=="><i
+                class="fab fa-instagram"></i></a>
             <a
-              href="https://en.wikipedia.org/wiki/Web_development#:~:text=Web%20development%20is%20the%20work,businesses%2C%20and%20social%20network%20services."
-              >Learn more</a
-            >
+              href="https://www.linkedin.com/in/raju-kumar-singh-1944b626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rajukumarsingh72090"><i class="fab fa-github"></i></a>
           </div>
-          <div>
-            <i class="fa-brands fa-app-store-ios"></i>
-            <h2>mobile App Development (Android & iOS)</h2>
-            <p>
-              I am an accomplished React Native app developer with a solid
-              foundation in mobile application development. I possess a deep
-              understanding of JavaScript, React, and React Native, which allows
-              me to build cross-platform mobile apps that deliver a seamless
-              user experience. My experience includes developing and deploying
-              apps for both Android and iOS platforms, leveraging native device
-              features, and optimizing performance. I am committed to creating
-              intuitive and feature-rich mobile applications while staying
-              current with the evolving world of mobile app development."
-            </p>
-            <a href="https://en.wikipedia.org/wiki/Android_software_development"
-              >Learn more</a
-            >
-          </div>
-          <div>
-            <i class="fa-solid fa-desktop"></i>
-            <h2>Desktop App Development</h2>
-            <p>
-              I am a skilled desktop app developer specializing in Electron.js,
-              a framework that enables the creation of cross-platform
-              applications using web technologies. With a strong foundation in
-              HTML, CSS, and JavaScript, I have successfully developed desktop
-              applications for various operating systems, including Windows,
-              macOS, and Linux. My expertise includes creating user-friendly
-              interfaces, integrating native functionalities, and optimizing
-              performance for Electron-based apps. I am passionate about
-              leveraging Electron.js to build versatile, efficient, and visually
-              engaging desktop applications.
-            </p>
-            <a href="https://en.wikipedia.org/wiki/Application_development"
-              >Learn more</a
-            >
-          </div>
+          <a href="images/raju-resume.pdf" download class="btn btn-2">download resume</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="your name" required />
+            <input type="email" name="Email" placeholder="your email" required />
+            <textarea name="Message" rows="6" placeholder="your message"></textarea>
+            <button type="submit" class="btn btn-2">submit</button>
+          </form>
+          <span id="msg"></span>
         </div>
       </div>
     </div>
+    <div class="copyright">
+      <p>
+        copyright © raju kumar singh made with
+        <i class="fa-solid fa-heart"></i> from India
+      </p>
+    </div>
+  </div>
+</body>
 
-    <!-- portfolio -->
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">my Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/todo.jpeg" alt="" />
-            <div class="layer">
-              <h3>Todo App</h3>
-              <p>
-                A "to-do" list is a commonly used organizational tool that helps
-                individuals keep track of tasks and activities they need to
-                complete. It can range from simple pen-and-paper lists to
-                digital apps, and it's an effective way to stay productive and
-                organized by prioritizing and managing tasks efficiently.
-              </p>
-              <a
-                href="https://github.com/rajukumarsingh72090/javaScript-projects/tree/main/crud_javaScript"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/myntra.png" alt="" />
-            <div class="layer">
-              <h3>Myntra Clone</h3>
-              <p>
-                I created myntra clone just to practice and testing my ability
-                that what I can do best in my web development. while creating
-                the clone of myntra it is very challenging task for me because
-                of complex user interfaces but after two I completed and gain
-                confidence.
-              </p>
-              <a
-                href="https://github.com/rajukumarsingh72090/my_CSS/tree/main/myntra_clone"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/amazon.jpeg" alt="" />
-            <div class="layer">
-              <h3>Amazon Clone</h3>
-              <p>
-                After creating myntra clone I go to make amazon clone it was not
-                very challenging because i had good practice of my developed so
-                i enjoyed making my amazon clone and I am not stoping here,
-                right now i am working on my youtube clone which is very
-                challenging because i have never made any video streaming
-                platform yet.
-              </p>
-              <a
-                href="https://github.com/rajukumarsingh72090/my_CSS/tree/main/simple_css"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <a href="#" class="btn">see more</a>
-      </div>
-    </div>
-
-    <!-- contact -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">contact me</h1>
-            <p>
-              <a href="mailto: rajukumarsingh72090@gmail.com"
-                >rajukumarsingh72090@gmail.com</a
-              >
-            </p>
-            <p><a href="tel: +917209078494">7209078494</a></p>
-            <div class="social-icons">
-              <a
-                href="https://www.facebook.com/profile.php?id=100075000042168&mibextid=ZbWKwL"
-                ><i class="fab fa-facebook"></i
-              ></a>
-              <a
-                href="https://x.com/RajuKumar51148?t=LS7W2EKcAe5rbtxLP-ZKcw&s=09"
-                ><i class="fab fa-twitter-square"></i
-              ></a>
-              <a
-                href="https://instagram.com/rajukumarsingh769?utm_source=qr&igshid=ZDExYjZkNGI0OA=="
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/raju-kumar-singh-1944b626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-              <a href="https://github.com/rajukumarsingh72090"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
-            <a href="images/raju-resume.pdf" download class="btn btn-2"
-              >download resume</a
-            >
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="your name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="your email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="your message"
-              ></textarea>
-              <button type="submit" class="btn btn-2">submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>
-          copyright © raju kumar singh made with
-          <i class="fa-solid fa-heart"></i> from India
-        </p>
-      </div>
-    </div>
-  </body>
 </html>
